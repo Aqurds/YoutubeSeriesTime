@@ -2,19 +2,6 @@ from bs4 import BeautifulSoup
 import requests
 
 
-
-
-
-
-"""
-What about: This is a test project to get to total time of video in a playlist in Youtube.
-
-Reason to do: I was playing flask video from Cory's chanel and trying to figure out how much time i need to finish this series. So i calculated the time
-"""
-
-
-
-
  
 dataSource = requests.get('https://www.youtube.com/playlist?list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH').text
 
